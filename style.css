@@ -1,0 +1,46 @@
+
+   
+body {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+    color: rgb(253, 247, 247); /* Changed text color to black for better readability */
+    font-family: Arial, sans-serif; /* Added a common font for better cross-platform consistency */
+}
+
+h1, h2 {
+    color: #ffffff; /* Darkened heading colors for better contrast */
+    margin-top: 20px; /* Increased margin-top for headings */
+}
+
+p {
+    margin-bottom: 10px; /* Reduced margin-bottom for paragraphs */
+    line-height: 1.5; /* Increased line-height for better readability */
+}
+
+ol, ul {
+    margin-bottom: 20px; /* Increased margin-bottom for lists */
+}
+
+img {
+    max-width: 100%; /* Ensured images don't overflow their containers */
+    height: auto; /* Ensured images maintain aspect ratio */
+    display: block; /* Removed extra space below images */
+    margin: 10px auto; /* Centered images with margin */
+}
+
+ul {
+    padding-left: 20px; /* Added left padding for unordered lists */
+}
+
+li {
+    margin-bottom: 5px; /* Reduced margin-bottom for list items */
+}
+
+strong {
+    font-weight: bold; /* Ensured strong text is bold */
+}
